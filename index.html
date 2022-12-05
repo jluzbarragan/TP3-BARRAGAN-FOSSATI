@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Juliana Luz Barragán y Jonathan Fossati, Diseño Web, DGT4AP, 2022.
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css" class="rel">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="d-flex p-4 mb-4 bg-sucess text-white justify-content-center">
+        <nav class="navbar navbar-expand-md bg-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                        <li class="nav-item d-flex align-self-center pe-4 d-none d-md-block">
+                            <img src="Img/MALBA-LOGO.jpg" class="img-fluid" alt="malba logo">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienes-somos.html">MALBA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="colecciones.html">Colecciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merchandising.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- header carrousel-->
+
+    <header class="container py-4 mb-5">
+        <div class="row ms-auto text-center d-block d-sm-block d-lg-none g-0 d-flex justify-content-center">
+            <div class="col-12 p-5 bg-light ms-auto">
+                <H1 class="titulo">MALBA</H1>
+            </div>
+        </div>
+        <div class="row g-0">
+            <!-- col MALBA-->
+            <div class="d-none d-xl-block d-lg-block bg-light ms-auto col-xl-2 col-lg-3 text-wrap ">
+                <h1 class="title">
+                    MALBA
+                </h1>
+            </div>
+            <!-- fin col MALBA-->
+
+            <!--carousel-->
+            <div class="col-xl-10 col-sm-12 col-lg-9 col-md-12">
+                <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Img/carrousel-manantiales-florecientes-en-otoño-joaquin-clausell.jpg"
+                                class="d-block w-100" alt="Joaquin Clausell">
+                            <div class="carousel-caption d-none d-md-block text-end lh-1">
+                                <h3>Semana del impresionismo</h3>
+                                <p class="fst-italic fw-light">Manantiales florecientes en otoño, Joaquín Clausell</p>
+                                <p class="fst-italic fw-light">Ciudad de México, 1910</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/carrousel-Pedone-Antonio-Paisaje-Serrano.jpg" class="d-block w-100"
+                                alt="Antonio Pedone">
+                            <div class="carousel-caption d-none d-md-block text-end lh-1">
+                                <h3>Semana del impresionismo</h3>
+                                <p class="fst-italic fw-light">Paisaje Serrano, Antonio Pedone. </p>
+                                <p class="fst-italic fw-light">Córdoba, 1959</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/carrousel-CARLOS-DE-LA-TORRE-EL-CAMINO-EN-INVIERNO.jpg" class="d-block w-100"
+                                alt="Carlos de la torre">
+                            <div class="carousel-caption d-none d-md-block text-end lh-1">
+                                <h3>Semana del impresionismo</h3>
+                                <p class="fst-italic fw-light">El camino en invierno, Carlos de la Torre</p>
+                                <p class="fst-italic fw-light">Salta, 1920</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/carrousel-Pedro-Blanes-Viale-Las-Glicinas.jpg" class="d-block w-100"
+                                alt="Pedro Blanes Viale">
+                            <div class="carousel-caption d-none d-md-block text-end lh-1">
+                                <h3>Semana del impresionismo</h3>
+                                <p class="fst-italic fw-light">Las Glicinas, Pedro Blanes Viale</p>
+                                <p class="fst-italic fw-light">Italia, 1916</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- fin carousel-->
+            </div>
+            <!-- fin col carousel-->
+        </div>
+        <!-- fin row-->
+    </header>
+    <!--fin header carrousel-->
+
+
+    <!--call to action-->
+    <section id="action">
+        <div class="container bg-light g-0 my-5 py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 text-center pb-2">
+                    <h2 class="titulo2 ">Sumate a nuestra semana del impresionismo!</h2>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 py-2 text-center ">
+                    <p class="lead5 fw-light">En MALBA, celebramos la semana del impresionismo conmemorando artistas
+                        latinoamericanos del
+                        movimiento. Con talleres, charlas y exposiciones, te contamos sobre los diversos artistas que
+                        lo conformaron, las técnicas utilizadas, las corrientes de pensamiento y mucho más.</p>
+                    <a href="contacto.html" class="btn btn-outline-dark btn-rosa" role="button">Reservá tu entrada</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--fin call to action-->
+
+    <!-- pastillas-->
+    <section id="pastillas">
+        <div class="container py-4 py-sm-5 py-md-5">
+            <div class="row row-cols-3 d-flex justify-content-center">
+                <div class="col-lg-4 col-9">
+                    <div class="card text-bg-dark view overlay">
+                        <img src="img/pastilla-1.jpg" class="card-img rounded img-fluid" alt="pastilla 1">
+                        <div class="card-img-overlay d-flex align-items-end">
+                            <div>
+                                <h3 class="text-light ps-2">Nuevas obras</h3>
+                                <button type="button" class="btn btn-outline-light btn-semana" data-bs-toggle="modal"
+                                    data-bs-target="#exposicion"> Ver más </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exposicion" tabindex="-1" aria-labelledby="exposicionLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5" id="exposicionLabel">Obras de la exposición de Martín
+                                        Malharro</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container mt-5" style="max-width: 1250px;">
+                                        <div class="row g-0 d-flex justify-content-center pb-4">
+                                            <div class="col-xl-3 col-lg-2 col-sm-8 bg-light pt-4 ps-4 pe-5">
+                                                <div class="card-body pb-3">
+                                                    <h3 class="card-title pb-3">"Las parvas"</h3>
+                                                    <p class="card-text fw-light">1911, óleo s/tela, 67 x 88 cm. Museo
+                                                        Nacional de Bellas Artes, Buenos Aires.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-2 d-none d-lg-block col-sm-8">
+                                                <img src="img/Martin-malharro-obras-1.jpg" class="img-fluid"
+                                                    alt="malharro obras 1">
+                                            </div>
+                                            <div class="d-block d-sm-block d-lg-none col-sm-8">
+                                                <img src="img/Martin-malharro-obras-1-sm.jpg" class="img-fluid"
+                                                    alt="malharro obras 1 sm">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-2 col-sm-8 bg-light pt-4 ps-4 pe-5">
+                                                <div class="card-body pb-3">
+                                                    <h3 class="card-title pb-3">"Paisaje o Atardecer"</h3>
+                                                    <p class="card-text fw-light">1911, 37 x 53,5 cm. Museo Nacional de
+                                                        Bellas
+                                                        Artes, Buenos Aires.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-2 d-none d-lg-block col-sm-8">
+                                                <img src="img/Martin-malharro-obras-2.jpg" class="img-fluid"
+                                                    alt="malharro obras 2">
+                                            </div>
+                                            <div class="d-block d-sm-block d-lg-none col-sm-8">
+                                                <img src="img/Martin-malharro-obras-2-sm.jpg" class="img-fluid"
+                                                    alt="malharro obras 2 sm">
+                                            </div>
+                                        </div>
+                                        <div class="row g-0 d-flex justify-content-center pb-5">
+                                            <div class="col-xl-3 col-lg-2 col-sm-8 bg-light pt-4 ps-4 pe-5">
+                                                <div class="card-body pb-3">
+                                                    <h3 class="card-title pb-3">"En plena naturaleza"</h3>
+                                                    <p class="card-text fw-light">1901, óleo s/tela, 34 x 47,5 cm.
+                                                        Museo Nacional de Bellas Artes, Buenos Aires.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-2  d-none d-lg-block col-sm-8">
+                                                <img src="img/Martin-malharro-obras-3.jpg" class="img-fluid"
+                                                    alt="malharro obras 3">
+                                            </div>
+                                            <div class="d-block d-sm-block d-lg-none col-sm-8">
+                                                <img src="img/Martin-malharro-obras-3-sm.jpg" class="img-fluid"
+                                                    alt="malharro obras 3 sm">
+                                            </div>
+                                            <div class="col-xl-3 col-lg-2 col-sm-8 bg-light pt-4 ps-4 pe-5">
+                                                <div class="card-body pb-3">
+                                                    <h3 class="card-title pb-3">"El arado"</h3>
+                                                    <p class="card-text fw-light">1901, óleo s/tela, 27,5 x 41 cm. Museo
+                                                        Nacional de
+                                                        Bellas Artes, Buenos Aires.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-2  d-none d-lg-block col-sm-8">
+                                                <img src="img/Martin-malharro-obras-4.jpg" class="img-fluid"
+                                                    alt="malharro obras 4">
+                                            </div>
+                                            <div class="d-block d-sm-block d-lg-none col-sm-8">
+                                                <img src="img/Martin-malharro-obras-4-sm.jpg" class="img-fluid"
+                                                    alt="malharro obras 4 sm">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-9">
+                    <div class="card text-bg-dark view overlay">
+                        <img src="img/pastilla-2.jpg" class="card-img rounded img-fluid" alt="Pastilla 2">
+                        <div class="card-img-overlay d-flex align-items-end">
+                            <div>
+                                <h3 class="text-light ps-2">Cine</h3>
+                                <button type="button" class="btn btn-outline-light btn-semana" data-bs-toggle="modal"
+                                    data-bs-target="#conciertos"> Ver más </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="conciertos" tabindex="-1" aria-labelledby="conciertosLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5" id="conciertosLabel">Funciones actuales</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container py-4">
+                                        <div class="row bg-light g-0">
+                                            <div class="col-xl-6 col-sm-12">
+                                                <div class="row mt-4 ms-3 text-lg-center">
+                                                    <div class="col-8 col-sm-12">
+                                                        <h3 class=" fw-bold text-lg-start">
+                                                            La tara</h3>
+                                                        <h4 class="subtitulo fw-light text-lg-start">
+                                                            Amparo Aguilar</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="texto-evento fw-light pt-3 ps-4"> A partir de la banda
+                                                            sonora de Tararira, los
+                                                            hermanos Aguilar se disponen a desenmarañar la historia
+                                                            familiar en cruce con los grandes eventos políticos del
+                                                            siglo XX. Un collage documental que recorre Argentina,
+                                                            España y otros lugares del mundo para volver a preguntarse,
+                                                            cien años después, si tal vez la revolución no sea también
+                                                            una estética.
+
+                                                        </p>
+                                                        <p class="texto-evento fw-light pt-3  ps-4"> Domingos a las
+                                                            18:00hs
+                                                        </p>
+                                                        <a href="https://malba.liit.com.ar/decidir/index.php?cine=1&m=1513&e=3239"
+                                                            class="btn btn-outline-dark ms-4 mb-3" target="_blank"
+                                                            role="button">Comprar
+                                                            entradas</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-md-12 g-0">
+                                                <img src="img/cine-1.jpg" class="img-fluid" alt="cine 1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container py-4">
+                                        <div class="row bg-light g-0">
+                                            <div class="col-xl-6 col-md-12 g-0">
+                                                <img src="img/cine-2.jpg" class="img-fluid" alt="cine 2">
+                                            </div>
+                                            <div class="col-xl-6 col-sm-12">
+                                                <div class="row mt-4 ms-3 text-lg-center">
+                                                    <div class="col-8 col-sm-12">
+                                                        <h3 class=" fw-bold text-lg-start">
+                                                            Herbaria</h3>
+                                                        <h4 class="subtitulo fw-light text-lg-start">
+                                                            Leandro Listorti</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="texto-evento fw-light pt-3 ps-4"> Como una excursión
+                                                            al quehacer de la preservación botánica y fílmica, Herbaria
+                                                            explora en sus procesos invisibles las derivaciones
+                                                            artísticas y políticas que las conectan. El filme teje una
+                                                            relación casi simbiótica entre el universo botánico y el
+                                                            fílmico. El futuro de
+                                                            la humanidad descansa en estas personas que tratan de
+                                                            conservar la belleza y la memoria de un mundo que se obstina
+                                                            en desaparecer.
+                                                        </p>
+                                                        <p class="texto-evento fw-light pt-3  ps-4"> Sábados a las
+                                                            18:00hs
+
+                                                        </p>
+                                                        <a href="https://malba.liit.com.ar/decidir/index.php?cine=1&m=1512&e=3227"
+                                                            class="btn btn-outline-dark ms-4 mb-3" target="_blank"
+                                                            role="button">Comprar
+                                                            entradas</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container py-4">
+                                        <div class="row bg-light g-0">
+                                            <div class="col-xl-6 col-sm-12">
+                                                <div class="row mt-4 ms-3 text-lg-center">
+                                                    <div class="col-8 col-sm-12">
+                                                        <h3 class=" fw-bold text-lg-start">
+                                                            El tiempo perdido</h3>
+                                                        <h4 class="subtitulo fw-light text-lg-start">
+                                                            María Álvarez</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="texto-evento fw-light pt-3 ps-4"> Un grupo de personas
+                                                            se reúne desde hace dieciocho años, en un bar de Buenos
+                                                            Aires, a leer una y otra vez el mismo libro: En busca del
+                                                            tiempo perdido de Marcel Proust. Atravesando sus recuerdos y
+                                                            emociones, con gran sentido del humor, el grupo le da a la
+                                                            novela un significado nuevo y personal.
+                                                        </p>
+                                                        <p class="texto-evento fw-light pt-3  ps-4"> Sábados a las
+                                                            20:00hs
+                                                        </p>
+                                                        <a href="https://malba.liit.com.ar/decidir/index.php?cine=1&m=1485&e=3232"
+                                                            class="btn btn-outline-dark ms-4 mb-3" target="_blank"
+                                                            role="button">Comprar
+                                                            entradas</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-md-12 g-0">
+                                                <img src="img/cine-3.jpg" class="img-fluid" alt="cine 3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-9">
+                    <div class="card text-bg-dark view overlay">
+                        <img src="img/pastilla-3.jpg" class="card-img rounded img-fluid" alt="pastilla 3">
+                        <div class="card-img-overlay d-flex align-items-end">
+                            <div>
+                                <h3 class="text-light ps-2">Visitas guiadas</h3>
+                                <button type="button" class="btn btn-outline-light btn-semana" data-bs-toggle="modal"
+                                    data-bs-target="#visitas"> Ver más </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="visitas" tabindex="-1" aria-labelledby="visitasLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title fs-5" id="visitasLabel">Visitas guiadas</h2>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container py-4">
+                                        <div class="row bg-light g-0">
+                                            <div class="col-xl-6 col-sm-12">
+                                                <div class="row mt-4 ms-2 text-lg-center">
+                                                    <div class="col-8 col-sm-12">
+                                                        <h3 class="fw-bold text-lg-start">
+                                                            Recorridos por Tercer Ojo</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="texto-evento fw-light pt-3 ps-4"> El equipo
+                                                            educativo propone distintos recorridos por la exposición
+                                                            Tercer Ojo, que pone en diálogo la Colección Malba y la
+                                                            colección particular de su fundador Eduardo F.
+                                                            Costantini.</p>
+                                                        <p class="texto-evento fw-light pt-3 ps-4"> Actividad
+                                                            incluida con el ticket de ingreso al museo. No
+                                                            requiere inscripción previa.
+                                                            Miércoles, viernes y sábados a las
+                                                            16:00.
+                                                            Punto de encuentro: ingreso a la sala de exposición,
+                                                            nivel 1.
+                                                            Cupo: 25 personas.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-md-12 g-0">
+                                                <img src="img/visitas-guiadas-1.jpg" class="img-fluid"
+                                                    alt="visitas guiadas 1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container py-4">
+                                        <div class="row bg-light g-0">
+                                            <div class="col-xl-6 col-md-12 g-0">
+                                                <img src="img/visitas-guiadas-2.jpg" class="img-fluid"
+                                                    alt="visitas guiadas 2">
+                                            </div>
+                                            <div class="col-xl-6 col-sm-12">
+                                                <div class="row mt-4 ms-2 text-lg-center">
+                                                    <div class="col-8 col-sm-12">
+                                                        <h3 class=" fw-bold text-lg-start">
+                                                            Recorridos por Schhhiii… Anna
+                                                            Maria Maiolino</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="texto-evento fw-light pt-3 ps-4"> Durante la
+                                                            visita se abordarán los conceptos, técnicas y
+                                                            materialidades que estructuran la “vida-obra” de
+                                                            Maiolino y que se repiten, como en una espiral, a lo
+                                                            largo de los 60 años de su saber-hacer artístico.</p>
+                                                        <p class="texto-evento fw-light pt-3 ps-4"> Actividad
+                                                            incluida con el ticket de ingreso al museo. No
+                                                            requiere inscripción previa.
+                                                            Miércoles y sábados a las 17:00
+                                                            Punto de encuentro: ingreso a la sala de exposición,
+                                                            nivel 2.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin pastillas-->
+
+    <!-- galería -->
+    <section id="galeria">
+        <div class="container-2 ">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-light titulo">Galería</h2>
+                </div>
+            </div>
+            <div class="row row-cols-2 d-flex justify-content-center flex-wrap">
+                <div class="col-xl-5 col-12">
+                    <div class="card">
+                        <div id="carouselExampleSlidesOnly1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Img/Cesareo-1.jpg" class="d-block w-100 rounded" alt="Cesareo-1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/Cesareo-2.jpg" class="d-block w-100 rounded" alt="Cesareo-2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/Cesareo-3.jpg" class="d-block w-100 rounded" alt="Cesareo-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead5">Cesáreo Bernaldo de Quiros</p>
+                            <a href="colecciones.html" class="btn btn-outline-dark " role="button">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-12">
+                    <div class="card">
+                        <div id="carouselExampleSlidesOnly2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Img/berni-galeria-1.jpg" class="d-block w-100 rounded"
+                                        alt="berni-galeria-1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/berni-galeria-2.jpg" class="d-block w-100 rounded"
+                                        alt="berni-galeria-2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/berni-galeria-3.jpg" class="d-block w-100 rounded"
+                                        alt="berni-galeria-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead5">Antonio Berni</p>
+                            <a href="colecciones.html" class="btn btn-outline-dark " role="button">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-12">
+                    <div class="card">
+                        <div id="carouselExampleSlidesOnly3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Img/frida-galeria-1.jpg" class="d-block w-100 rounded"
+                                        alt="frida-galeria-1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/frida-galeria-2.jpg" class="d-block w-100 rounded"
+                                        alt="frida-galeria-2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/frida-galeria-3.jpg" class="d-block w-100 rounded"
+                                        alt="frida-galeria-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead5">Frida Kahlo</p>
+                            <a href="colecciones.html" class="btn btn-outline-dark" role="button">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-12">
+                    <div class="card">
+                        <div id="carouselExampleSlidesOnly4" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="Img/blanes-viale-galeria-1.jpg" class="d-block w-100 rounded"
+                                        alt="blanes-viale-galeria-1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/blanes-viale-galeria-2.jpg" class="d-block w-100 rounded"
+                                        alt="blanes-viale-galeria-2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="Img/blanes-viale-galeria-3.jpg" class="d-block w-100 rounded"
+                                        alt="blanes-viale-galeria-3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead5">Pedro Blanes Viale</p>
+                            <a href="colecciones.html" class="btn btn-outline-dark" role="button">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin galería -->
+
+
+
+    <!-- Opiniones -->
+    <section>
+        <div class="container py-sm-4 py-md-4">
+            <div class="row pb-3">
+                <div class="col">
+                    <h2 class="text-light titulo">Opiniones de nuestros visitantes</h2>
+                </div>
+            </div>
+            <div class="row row-cols-3 pb-5 d-flex justify-content-center">
+                <div class="col-lg-4 col-9 py-2">
+                    <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-1.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-2.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-3.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-9 py-2">
+                    <div id="carouselExampleFade2" class="carousel slide carousel-fade carousel-fade"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-4.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-5.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-6.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-9 py-2">
+                    <div id="carouselExampleFade3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-7.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-8.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="Img/opinion-9.jpg" class="d-block w-100 rounded img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin opiniones -->
+
+    <footer style="background-color:#6889b4">
+        <div class="container d-flex p-4 mb-4 text-white justify-content-center">
+            <div class="row-1">
+                <ul class="socials">
+                    <li><a href="#"><i class="bi bi-chevron-up"></i></a></li>
+                </ul>
+                <ul class="socials">
+                    <li><a href="https://www.instagram.com/museomalba/?hl=es"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/museomalba?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="bi bi-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/museomalba/"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/@museomalba"><i class="bi bi-youtube"></i></a></li>
+                </ul>
+                <div class="col-copy">
+                    MALBA 2022 © Company, Inc.
+                    <p>Juliana Luz Barragán y Jonathan Fossati, Diseño Web, DGT4AP, 2022.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

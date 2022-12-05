@@ -1,0 +1,229 @@
+body {
+    background-color: #25476d;
+}
+
+.title {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: #6889b4;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 80px;
+}
+
+.row-1 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-item {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li {
+    margin: 0px 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+}
+
+.socials a:hover i {
+    color: darkgrey
+}
+
+.col-md-8 {
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+
+.display-3 {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.titutulo {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 40px;
+}
+
+.titutulo2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 30px;
+    color: black;
+}
+
+#coleccion .titutulo2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 30px;
+    color: #25476d;
+}
+
+.titutulo3 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.titulo {
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    color: #6889b4
+}
+
+.titulo2 {
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+    color: #b9859b
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.lead {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.lead2 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+}
+
+.lead3 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+.lead5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: black
+}
+
+.lead6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: black
+}
+
+.lead7 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: black
+}
+
+
+.col-12 {
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+#coleccion .col-4 {
+    padding: 0px;
+    margin: auto;
+}
+
+.container-1 {
+    height: min-content;
+    width: 1295px;
+    padding: 20px;
+}
+
+.container-2 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: #6889b4
+}
+
+.container-3 {
+
+    background: white;
+    align-self: center;
+}
+
+.container-5 {
+    margin: 65px;
+}
+
+#coleccion .card .card-img-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#coleccion .card:hover>.card-img-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card1 {
+    background-color: #689368;
+}
+
+.card2 {
+    background-color: #689368;
+}
+
+.card3 {
+    background-color: #689368;
+}
+
+
+
+#resential .col-10 {
+    width: 1300px;
+    border-radius: 5px;
+    background: white
+}
+
+.btn {
+    margin: 10px;
+}
+
+.btn-rosa {
+    color: #ffff;
+    background-color: #b9859b;
+    border-color: #b9859b;
+
+}
+
+.btn-rosa:hover {
+    color: #b9859b;
+    background-color: #ffff;
+    border-color: #b9859b;
+
+}
+
+.card {
+    margin: 20px;
+}

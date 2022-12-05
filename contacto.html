@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Museo - MALBA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css" class="rel">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="d-flex p-4 mb-4 bg-sucess text-white justify-content-center">
+        <nav class="navbar navbar-expand-md bg-white">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                        <li class="nav-item d-flex align-self-center pe-4 d-none d-md-block">
+                            <img src="Img/MALBA-LOGO.jpg" class="img-fluid" alt="malba logo">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienes-somos.html">MALBA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="colecciones.html">Colecciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merchandising.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section id="agenda">
+        <div class="d-flex justify-content-center">
+            <div class="container start-40 card mb-3 mx-5 border">
+                <form class="row px-4 justify-content-center row needs-validation" novalidate>
+                    <h1 class="titulo2  px-3 py-4" style="font-size: 25px"> ¡Reservá tu entrada para la semana del
+                        impresionismo! </h1>
+                    <div class="col-6 py-2">
+                        <input type="date" class="form-control" id="diaInput" required>
+                        <div class="invalid-feedback">
+                            Complete este campo
+                        </div>
+                    </div>
+                    <div class="col-6 py-2">
+                        <input type="number" class="form-control" id="entradasInput" placeholder="Cantidad de entradas"
+                            required>
+                        <div class="invalid-feedback">
+                            Complete este campo
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="nombreInput" placeholder="Nombre" required>
+                        <div class="invalid-feedback">
+                            Complete este campo
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="apellidoInput" placeholder="Apellido" required>
+                        <div class="invalid-feedback">
+                            Complete este campo
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="telefonoInput" placeholder="Número de teléfono"
+                            required>
+                        <div class="invalid-feedback">
+                            Complete este campo
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <input type="email" class="form-control" id="correoInput" placeholder="Correo electrónico"
+                            required>
+                        <div class="invalid-feedback">
+                            Complete este campo
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="button" class="btn btn-rosa" data-bs-toggle="modal" data-bs-target="#reserva">
+                            Reservar</button>
+                    </div>
+                    <div class="modal fade" id="reserva" tabindex="-1" aria-labelledby="reservaLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="reservaLabel">Reserva realizada</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p class="py-3 lead5">Tu reserva se ha realizado con éxito!</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="maps">
+        <div class="container rounded border-3 mt-5 py-0" style="background-color:#6889b4">
+            <div class="row my-5 ">
+                <div class="col-lg-5 ">
+                    <div class="ratio ratio-4x3">
+                        <!-- insertar video -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0783182073687!2d-58.40558668420977!3d-34.5768848135871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb564f74f69c3%3A0xeea87be2795e86d2!2sMuseo%20de%20Arte%20Latinoamericano%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1667746494668!5m2!1ses!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 align-self-center py-2">
+                    <h2 class="display-3 py-3" style="font-size: 30px">
+                        Te esperamos!
+                    </h2>
+                    <p class="lead">
+                        Estamos en: Av. Figueroa Alcorta 3415,
+                        CABA, Argentina
+                    </p>
+                    <p class="lead">
+                        Horarios: Jueves a lunes de 12:00 a Miércoles de 11:00 a 20:00.
+                    </p>
+                    <p class="lead">
+                        Martes cerrado.
+                    </p>
+                    <p class="lead">
+                        Número de teléfono: +54 11 4808 6500
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="navbar navbar-expand-lg navbar-light" style="background-color:#6889b4">
+        <div class="container d-flex p-4 mb-4 bg-sucess text-white justify-content-center">
+            <div class="row-1">
+                <ul class="socials">
+                    <li><a href="#"><i class="bi bi-chevron-up"></i></a></li>
+                </ul>
+                <ul class="socials">
+                    <li><a href="https://www.instagram.com/museomalba/?hl=es"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/museomalba?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="bi bi-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/museomalba/"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/@museomalba"><i class="bi bi-youtube"></i></a></li>
+                </ul>
+                <div class="col-copy">
+                    MALBA 2022 © Company, Inc
+                    <p>
+                        Juliana Luz Barragán y Jonathan Fossati, Diseño Web, DGT4AP, 2022.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script>
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+</body>
+
+</html>
